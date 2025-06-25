@@ -1,5 +1,18 @@
 # 📈 Progress Log: Linear Algebra for Data Science
 
+### 📅 June 26, 2025
+- ✅ Watched Khan Academy:
+  - Lesson 2: Linear Combinations and Span
+  - Lesson 3 (Lecture 1): Introduction to Linear Independence
+- 📓 Created and uploaded notebook: `02_linear_combinations_span_independence.ipynb`
+  - Explained span and independence with code examples and visualizations using NumPy and Matplotlib
+- 🧠 Concepts covered:
+  - Linear combinations
+  - Span with formal set definition
+  - Linear dependence and redundancy
+  - Linear independence intuition and detection
+
+
 ## 📅 June 12, 2025
 
 ### 🧠 Khan Academy - Linear Algebra
