@@ -1,5 +1,14 @@
 # 📈 Progress Log: Linear Algebra for Data Science
 
+### 📅 June 27, 2025
+- ✅ Completed Khan Academy: Lesson 3 – Linear Independence (Lectures 2 & 3)
+- 🧠 Learned:
+  - Formal test for linear dependence using vector equations
+  - How to solve a * v₁ + b * v₂ + ... = 0 to determine if a set is dependent or independent
+  - Span of a 3D vector set and its relation to linear independence
+- 📓 Created and uploaded: `03_linear_independence_examples.ipynb`
+  - Includes 2D and 3D examples with NumPy and vector visualizations
+
 ### 📅 June 26, 2025
 - ✅ Watched Khan Academy:
   - Lesson 2: Linear Combinations and Span
