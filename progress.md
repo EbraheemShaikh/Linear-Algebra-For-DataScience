@@ -1,5 +1,20 @@
 # 📈 Progress Log: Linear Algebra for Data Science
 
+### 📅 June 28, 2025
+- ✅ Completed Khan Academy: Lesson 4 – Linear Subspaces (Lecture 1)
+- 🧠 Learned:
+  - Three essential conditions for a subspace:
+    1. Contains zero vector
+    2. Closed under scalar multiplication
+    3. Closed under vector addition
+  - Tested subspace conditions through examples:
+    - Zero vector subspace in ℝ³ ✅
+    - Non-subspace due to scalar violation ❌
+    - Subspace formed by Span{v₁, v₂, v₃} ✅
+- 📓 Created and uploaded notebook: `04_subspaces.ipynb`
+  - Includes well-explained markdown and NumPy examples
+
+
 ### 📅 June 27, 2025
 - ✅ Completed Khan Academy: Lesson 3 – Linear Independence (Lectures 2 & 3)
 - 🧠 Learned:
