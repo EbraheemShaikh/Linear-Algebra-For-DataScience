@@ -1,5 +1,17 @@
 # 📈 Progress Log: Linear Algebra for Data Science
 
+### 📅 June 30, 2025
+- ✅ Completed Khan Academy: Lesson 4 – Basis of a Subspace (Lecture 2)
+- 🧠 Learned:
+  - A **basis** is a set of linearly independent vectors that spans a subspace
+  - Every vector in the subspace has a **unique** representation using the basis
+  - Subspaces can have **multiple bases**, including the standard basis
+- 🧮 Example:
+  - Verified that {[2, 3], [7, 0]} forms a basis of ℝ²
+  - Compared it with the standard basis {[1, 0], [0, 1]}
+- 📓 Created and uploaded notebook: `05_basis_of_subspace.ipynb`
+
+
 ### 📅 June 28, 2025
 - ✅ Completed Khan Academy: Lesson 4 – Linear Subspaces (Lecture 1)
 - 🧠 Learned:
