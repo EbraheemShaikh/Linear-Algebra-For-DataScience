@@ -1,5 +1,15 @@
 # 📈 Progress Log: Linear Algebra for Data Science
 
+### 📅 July 1, 2025
+- ✅ Completed Khan Academy – Lesson 5 (Vector Dot Product)
+  - Watched Lectures 1 & 2:
+    - Learned how to compute **dot product** and **vector length**
+    - Proved dot product properties: **commutative, distributive, scalar multiplication**
+    - Understood that **||v|| = √(v·v)** (norm from dot product)
+- 📓 Created & uploaded notebook: `06_dot_product_and_vector_length.ipynb`
+- 📌 Note: Watched Cauchy-Schwarz Inequality (Lecture 3), but will complete the notebook tomorrow
+
+
 ### 📅 June 30, 2025
 - ✅ Completed Khan Academy: Lesson 4 – Basis of a Subspace (Lecture 2)
 - 🧠 Learned:
