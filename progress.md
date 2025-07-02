@@ -1,5 +1,32 @@
 # 📈 Progress Log: Linear Algebra for Data Science
 
+## 🗓️ June 30, 2025
+
+### 📘 Watched:
+- **Lecture 3 of Lesson 5 – Cauchy-Schwarz Inequality**  
+  *(Khan Academy – Linear Algebra)*
+
+### 🧠 Concepts Covered:
+- **Cauchy-Schwarz Inequality**:  
+  `|u · v| ≤ ||u|| × ||v||`
+- **Equality Case**: Occurs only when one vector is a scalar multiple of the other
+- **Proof Technique**:
+  - Defined the function: `f(t) = ||tv − u||²`, which is always ≥ 0
+  - Expanded using dot product rules:
+    ```
+    f(t) = t²||v||² − 2t(u·v) + ||u||²
+    ```
+  - Applied the discriminant condition from algebra:  
+    `b² − 4ac ≤ 0` to ensure positivity
+  - Derived: `(u · v)² ≤ ||u||² × ||v||²`, then took square root
+
+### 🧮 Notebook Created:
+- [`07_cauchy_schwarz_inequality.ipynb`](https://github.com/EbraheemShaikh/Linear-Algebra-For-DataScience/blob/main/07_cauchy_schwarz_inequality.ipynb)  
+  ✅ Contains both **LaTeX styling** and **simple math explanations** for clarity
+
+---
+
+
 ### 📅 July 1, 2025
 - ✅ Completed Khan Academy – Lesson 5 (Vector Dot Product)
   - Watched Lectures 1 & 2:
