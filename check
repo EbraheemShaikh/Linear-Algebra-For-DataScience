@@ -1,0 +1,128 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "1049c826",
+   "metadata": {},
+   "source": [
+    "# 🧮 Lesson 5, Lecture 4: Vector Triangle Inequality
+",
+    "**Date:** July 05, 2025
+",
+    "
+",
+    "In this lesson, we learned and proved the **Vector Triangle Inequality**, building upon our knowledge from the Cauchy-Schwarz Inequality."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ea5bd2f4",
+   "metadata": {},
+   "source": [
+    "## 🔁 Revisiting the Cauchy-Schwarz Inequality
+",
+    "The inequality states:\
+\
+\\\\[ |\\\\mathbf{u} \\\\cdot \\\\mathbf{v}| \\\\leq \\\\|\\\\mathbf{u}\\\\| \\\\cdot \\\\|\\\\mathbf{v}\\\\| \\\\]\
+\
+**Simple version:**
+",
+    "`|u · v| ≤ ||u|| × ||v||`"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c03baec7",
+   "metadata": {},
+   "source": [
+    "## 📐 Proving the Vector Triangle Inequality
+",
+    "We want to show:\
+\
+\\\\[ \\\\|\\\\mathbf{u} + \\\\mathbf{v}\\\\| \\\\leq \\\\|\\\\mathbf{u}\\\\| + \\\\|\\\\mathbf{v}\\\\| \\\\]\
+\
+**Simple version:**
+",
+    "`||u + v|| ≤ ||u|| + ||v||`
+",
+    "
+",
+    "**Step-by-step derivation:**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ddd703a3",
+   "metadata": {},
+   "source": [
+    "1. Start with the square of the length:
+",
+    "   \\\\[ \\\\|\\\\mathbf{u} + \\\\mathbf{v}\\\\|^2 = \\\\mathbf{u} \\\\cdot \\\\mathbf{u} + 2\\\\mathbf{u} \\\\cdot \\\\mathbf{v} + \\\\mathbf{v} \\\\cdot \\\\mathbf{v} \\\\]\
+2. Replace dot products with lengths:
+",
+    "   \\\\[ = \\\\|\\\\mathbf{u}\\\\|^2 + 2(\\\\mathbf{u} \\\\cdot \\\\mathbf{v}) + \\\\|\\\\mathbf{v}\\\\|^2 \\\\]\
+3. Apply Cauchy-Schwarz:
+",
+    "   \\\\[ \\\\mathbf{u} \\\\cdot \\\\mathbf{v} \\\\leq \\\\|\\\\mathbf{u}\\\\| \\\\cdot \\\\|\\\\mathbf{v}\\\\| \\\\]\
+4. Therefore:
+",
+    "   \\\\[ \\\\|\\\\mathbf{u} + \\\\mathbf{v}\\\\|^2 \\\\leq \\\\|\\\\mathbf{u}\\\\|^2 + 2\\\\|\\\\mathbf{u}\\\\|\\\\|\\\\mathbf{v}\\\\| + \\\\|\\\\mathbf{v}\\\\|^2 \\\\]\
+5. Which simplifies to:
+",
+    "   \\\\[ \\\\|\\\\mathbf{u} + \\\\mathbf{v}\\\\|^2 \\\\leq (\\\\|\\\\mathbf{u}\\\\| + \\\\|\\\\mathbf{v}\\\\|)^2 \\\\]\
+6. Taking square roots:
+",
+    "   \\\\[ \\\\|\\\\mathbf{u} + \\\\mathbf{v}\\\\| \\\\leq \\\\|\\\\mathbf{u}\\\\| + \\\\|\\\\mathbf{v}\\\\| \\\\]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f0438dd7",
+   "metadata": {},
+   "source": [
+    "### ✅ Equality Condition:
+",
+    "- Equality holds **only** when `u` and `v` are **collinear and point in the same direction**.
+",
+    "- i.e., `u = k·v` where `k > 0`."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3ee71b4e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 🔍 Let's visualize this in NumPy
+",
+    "import numpy as np
+",
+    "u = np.array([2, 1])
+",
+    "v = np.array([1, 3])
+",
+    "
+",
+    "length_u = np.linalg.norm(u)
+",
+    "length_v = np.linalg.norm(v)
+",
+    "length_u_plus_v = np.linalg.norm(u + v)
+",
+    "
+",
+    "print('||u|| =', round(length_u, 3))
+",
+    "print('||v|| =', round(length_v, 3))
+",
+    "print('||u + v|| =', round(length_u_plus_v, 3))
+",
+    "print('||u + v|| ≤ ||u|| + ||v||:', length_u_plus_v <= (length_u + length_v))"
+   ]
+  }
+ ],
+ "metadata": {},
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
