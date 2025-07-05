@@ -1,5 +1,20 @@
 # 📈 Progress Log: Linear Algebra for Data Science
 
+### 📅 July 5, 2025
+
+**Completed:**  
+- 📘 Khan Academy – Lesson 5, Lecture 4: *Vector Triangle Inequality*
+
+**Concepts Covered:**  
+- Expanded and simplified `||u + v||²`
+- Used dot product and Cauchy-Schwarz inequality
+- Proved: `||u + v|| ≤ ||u|| + ||v||`
+- Understood the condition when equality holds (collinear vectors)
+
+**Notebook:**  
+[08_vector_triangle_inequality.ipynb](https://github.com/EbraheemShaikh/Linear-Algebra-For-DataScience/blob/main/08_vector_triangle_inequality.ipynb)
+
+
 ## 🗓️ June 30, 2025
 
 ### 📘 Watched:
